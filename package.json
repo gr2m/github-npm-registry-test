@@ -21,5 +21,21 @@
   "bugs": {
     "url": "https://github.com/gr2m/github-npm-registry-test/issues"
   },
-  "homepage": "https://github.com/gr2m/github-npm-registry-test#readme"
+  "homepage": "https://github.com/gr2m/github-npm-registry-test#readme",
+  "semantic-release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github"
+    ]
+  },
+  "dependencies": {
+    "semantic-release": "^16.0.0-beta.19"
+  }
 }
