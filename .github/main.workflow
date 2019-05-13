@@ -5,7 +5,7 @@ workflow "Release" {
 
 action "filter: master branch" {
   uses = "actions/bin/filter@master"
-  args = "branch semantic-release-workflow"
+  args = "branch master"
 }
 
 action "npm ci" {
