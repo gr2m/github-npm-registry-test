@@ -27,15 +27,16 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       [
-        "@semantic-release/npm",
+        "@gr2m/semantic-release-npm-161",
         {
-          "npmPublish": false
+          "registry": "https://npm.pkg.github.com/"
         }
       ],
       "@semantic-release/github"
     ]
   },
   "dependencies": {
+    "@gr2m/semantic-release-npm-161": "^5.2.0-pull-161",
     "semantic-release": "^16.0.0-beta.19"
   }
 }
