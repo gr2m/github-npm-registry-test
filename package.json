@@ -36,7 +36,7 @@
     ]
   },
   "dependencies": {
-    "@gr2m/semantic-release-npm-161": "^5.2.0-pull-161",
+    "@gr2m/semantic-release-npm-161": "^5.2.0-pull-161-1",
     "semantic-release": "^16.0.0-beta.19"
   }
 }
