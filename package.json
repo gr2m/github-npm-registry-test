@@ -22,7 +22,7 @@
     "url": "https://github.com/gr2m/github-npm-registry-test/issues"
   },
   "homepage": "https://github.com/gr2m/github-npm-registry-test#readme",
-  "semantic-release": {
+  "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
