@@ -26,9 +26,10 @@ action "npx semantic-release" {
   needs = "npm test"
   uses = "docker://timbru31/node-alpine-git"
   runs = "npx"
-  args = "semantic-release"
+  args = "semantic-release --registry "
   env = {
-    NPM_CONFIG_REGISTRY = "https://npm.pkg.github.com/"
+    npm_config_registry = "https://npm.pkg.github.com/"
+    DEFAULT_NPM_REGISTRY = "https://npm.pkg.github.com/"
   }
   secrets = ["NPM_TOKEN", "GH_TOKEN"]
 }
