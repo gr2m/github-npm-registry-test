@@ -26,13 +26,13 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
       [
         "@gr2m/semantic-release-npm-161",
         {
           "registry": "https://npm.pkg.github.com/"
         }
-      ],
-      "@semantic-release/github"
+      ]
     ]
   },
   "dependencies": {
