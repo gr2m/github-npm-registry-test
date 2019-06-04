@@ -36,7 +36,7 @@
     ]
   },
   "dependencies": {
-    "semantic-release": "github:semantic-release/semantic-release#1194/github-action-compatibility",
+    "semantic-release": "github:semantic-release/semantic-release#1194/github-action-compatibility-debug",
     "@gr2m/semantic-release-npm-161": "^5.2.0-pull-161-4",
     "@gr2m/semantic-release-github": "^5.4.0-beta.1-issue-182"
   },
