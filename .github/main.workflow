@@ -10,14 +10,14 @@ action "filter: master branch" {
 
 action "npm ci" {
   needs = "filter: master branch"
-  uses = "docker://node:alpine"
+  uses = "docker://timbru31/node-alpine-git"
   runs = "npm"
   args = "ci"
 }
 
 action "npm test" {
   needs = "npm ci"
-  uses = "docker://node:alpine"
+  uses = "docker://timbru31/node-alpine-git"
   runs = "npm"
   args = "test"
 }
