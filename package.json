@@ -1,7 +1,8 @@
 {
   "name": "@gr2m/github-npm-registry-test",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "version": "1.0.0",
   "description": "test package for GitHub’s npm registry",
@@ -27,21 +28,15 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@gr2m/semantic-release-github",
-      [
-        "@gr2m/semantic-release-npm-161",
-        {
-          "registry": "https://npm.pkg.github.com/"
-        }
-      ]
+      "@gr2m/semantic-release-npm-debug"
     ]
   },
   "dependencies": {
     "semantic-release": "github:semantic-release/semantic-release#1194/github-action-compatibility-debug",
-    "@gr2m/semantic-release-npm-161": "^5.2.0-pull-161-4",
+    "@gr2m/semantic-release-npm-debug": "^1.0.0",
     "@gr2m/semantic-release-github": "^5.4.0-beta.1-issue-182"
   },
   "devDependencies": {
-    "install": "^0.12.2",
     "npm": "^6.9.0"
   }
 }
