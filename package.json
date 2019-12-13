@@ -37,6 +37,6 @@
     "@gr2m/semantic-release-github": "^5.4.0-beta.1-issue-182"
   },
   "devDependencies": {
-    "npm": "^6.9.0"
+    "npm": "^6.13.4"
   }
 }
