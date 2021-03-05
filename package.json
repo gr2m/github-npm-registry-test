@@ -5,24 +5,17 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "version": "1.0.0",
-  "description": "test package for GitHub’s npm registry",
+  "description": "test package for GitHubâs npm registry",
   "main": "index.js",
   "scripts": {
     "test": "node -e 'require(\".\")()'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gr2m/github-npm-registry-test.git"
-  },
+  "repository": "github:gr2m/github-npm-registry-test",
   "keywords": [
     "github-registry-test"
   ],
   "author": "Gregor Martynus (https://twitter.com/gr2m)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gr2m/github-npm-registry-test/issues"
-  },
-  "homepage": "https://github.com/gr2m/github-npm-registry-test#readme",
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
